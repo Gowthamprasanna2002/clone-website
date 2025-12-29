@@ -826,7 +826,7 @@
     }
 
     footer {
-      height: 500px;
+      height: 900px;
       border: 1px solid white;
       box-shadow: 2px 2px 10px;
       margin-top: 100px;
@@ -844,7 +844,7 @@
           75% 100%,
           25% 100%,
           0% 50%);
-      margin-top: -537px;
+      margin-top: -937px;
       margin-left: 700px;
     }
 
@@ -858,124 +858,46 @@
       margin-top: 4px;
     }
 
-    @media (max-width: 1024px) {
+    article {
 
-      ul {
-        padding-left: 200px;
-      }
+      margin-top: 200px;
+      border: 1px solid white;
 
-      .top {
-        padding-left: 300px;
-      }
-
-      #card {
-        margin-left: 100px;
-        transform: rotate(-5deg);
-      }
-
-      h1,
-      h2,
-      h3,
-      p {
-        max-width: 90%;
-      }
-
-      .c1 {
-        margin-left: 700px;
-      }
-
-      .c2 {
-        margin-left: 650px;
-      }
-
-      .c3 {
-        margin-left: 600px;
-      }
-
-      .table,
-      .t1 {
-        margin-left: 100px;
-        width: 700px;
-      }
-
-      footer h1,
-      footer p {
-        margin-left: 200px !important;
-      }
     }
 
-    @media (max-width: 768px) {
+    .u {
+      color: black;
 
-      #new {
-        height: auto;
-        padding-bottom: 100px;
-      }
-
-      nav {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      ul {
-        padding-left: 0;
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-
-      li {
-        margin-left: 20px;
-        padding-top: 10px;
-      }
-
-      .top {
-        padding-left: 30px;
-        padding-top: 40px;
-        text-align: center;
-      }
-
-      button {
-        margin-left: 0;
-      }
-
-      #card {
-        position: static;
-        margin: 40px auto;
-        transform: none;
-      }
-
-      .hexagon,
-      .icon3,
-      .icon4,
-      .code,
-      .fo1 {
-        display: none;
-      }
-
-      h1,
-      h2,
-      h3 {
-        text-align: center;
-        margin-left: 0 !important;
-      }
-
-      p {
-        text-align: center;
-        margin-left: 0 !important;
-        padding: 0 20px;
-      }
-
-      .table,
-      .t1 {
-        width: 90%;
-        margin: 30px auto;
-      }
-
-      footer h1,
-      footer p {
-        margin-left: 0 !important;
-        text-align: center;
-      }
     }
+
+    article ul {
+      margin-left: -200px;
+      margin-top: -20px;
+    }
+
+    hr {
+      width: 600px;
+      margin-top: 300px;
+    }
+
+    span {
+      margin-left: 100px;
+      line-height: 30px;
+    }
+
+    .our {
+      color: lightblue;
+      margin-left: 697px;
+      font-size: 18px;
+      margin-top: 50px;
+    }
+    /* --- RESPONSIVE MEDIA QUERIES --- */
+
+
+
+
+
+
   </style>
 </head>
 
@@ -1085,7 +1007,8 @@
     <h2 style="color:#5ac8fa ;margin-left: 250px;">Questions, Community & Contests</h2>
     <p style="color: grey;margin-left: 240px;font-size: 18px;line-height: 25px;font-size: 17px;">Over 4050 questions for
       you to practice. Come and join one of the <br> largest tech communities with hundreds of thousands of active users
-      <br> and participate in our contests to challenge yourself and earn <br> rewards.</p>
+      <br> and participate in our contests to challenge yourself and earn <br> rewards.
+    </p>
     <p style="margin-left: 240px;"><a style="color: #32a097;" href="">View Questions &#10095;</a></p>
   </section>
   <div class="icon3">
@@ -1199,18 +1122,25 @@
     <p style="margin-left: 430px;color: grey;line-height: 30px;font-size: 18px;">At LeetCode, our mission is to help you
       improve yourself and land your dream job. <br> We have a sizable repository of interview resources for many
       companies. In the past <br> few years, our users have landed jobs at top companies around the world.</p>
-      <div class="fo">
-  <p>copyrights © 2025 LeetCode</p>
-  <ul>
-    <li><a href="">Help Center</a></li>
-    <li><a href="">Jobs</a></li>
-    <li><a href="">Bug Bounty</a></li>
-    <li><a href="">Online Interview</a></li>
-    <li><a href="">Students</a></li>
-    <li><a href="">Terms</a></li>
-    <li><a href="">Privacy Policy</a></li>
-  </ul>
-</div>
+    <hr>
+    <p style="margin-left: 500px;margin-top: 60px;">If you are passionate about tackling some of the most interesting
+      problems <br> <span>around, we would love to hear from you.</span> </p>
+    <p><a class="our" href="">Join our Team</a></p>
+    <article>
+      <nav>
+        <p style="color: black;margin-left: 100px;margin-top: -1px;">Copyright © 2025 LeetCode</p>
+        <ul>
+          <li><a class="u" href="">Help Center</a></li>
+          <li><a class="u" href="">Jobs</a></li>
+          <li><a class="u" href="">Bug Bounty</a></li>
+          <li><a class="u" href="">Online Interview</a></li>
+          <li><a class="u" href="">Students</a></li>
+          <li><a class="u" href="">Terms</a></li>
+          <li><a class="u" href="">Privacy policy</a></li>
+        </ul>
+      </nav>
+    </article>
+
 
   </footer>
   <div class="fo1">
